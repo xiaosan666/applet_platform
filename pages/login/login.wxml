@@ -1,0 +1,17 @@
+<view>
+  <form bindsubmit='login'>
+    <view class='app-white'>
+      <view class='item'>
+        <label>用户名</label>
+        <input type='text' name='username' placeholder='请输入用户名' value='yeweiran'></input>
+      </view>
+      <view class='item'>
+        <label>密码</label>
+        <input type='text' password name='password' value='e10adc3949ba59abbe56e057f20f883e' placeholder='请输入密码'></input>
+      </view>
+    </view>
+    <view class='button'>
+      <button formType='submit' type='primary' disabled='{{loading}}'>{{loading?'正在登录': '登 录'}}</button>
+    </view>
+  </form>
+</view>

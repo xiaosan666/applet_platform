@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/patrol/task"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#393a3f",
+    "navigationBarTitleText": "e能管家",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eee"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 20000
+  }
+}

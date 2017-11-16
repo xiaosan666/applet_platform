@@ -1,0 +1,197 @@
+page {
+  background-color: #efefef;
+  font-size: 15px;
+}
+
+.app-white {
+  background-color: #fff;
+}
+
+/*********************************************华丽的分割线**************************************************/
+
+/*start:自定义栅格系统:*/
+
+.app-grid {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-col {
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  min-height: 1px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-1 {
+  width: 8.33333%;
+  max-width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+  max-width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+  max-width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+  max-width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+  max-width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+  max-width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+  max-width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+  max-width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*end:自定义栅格系统:*/
+
+/*********************************************华丽的分割线**************************************************/
+
+/*start:css工具类:*/
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.padding-vertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding-horizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-vertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin-horizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*end:css工具类:*/

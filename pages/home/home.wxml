@@ -1,0 +1,24 @@
+ <view>
+  <view class='app-row'>
+    <view class='app-col'>3</view>
+    <view class='app-col'>3</view>
+    <view class='app-col'>3</view>
+    <view class='app-col'>3</view>
+  </view>
+
+  <view class='app-row'>
+    <view class='app-col col-6'>6</view>
+    <view class='app-col col-6'>6</view>
+  </view>
+
+  <view class='app-row'>
+    <view class='app-col col-2'>2</view>
+    <view class='app-col col-10'>10</view>
+  </view>
+
+  <view class='app-row'>
+    <view class='app-col col-8'>8</view>
+    <view class='app-col col-4'>4</view>
+  </view>
+  
+ </view>

@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  border-bottom: 1px solid #e0dfe4;
+  margin-left: 15px;
+  padding: 10px 0;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.item>label {
+  width: 150rpx;
+}
+
+.button {
+  margin: 15px;
+}
