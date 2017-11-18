@@ -17,5 +17,3 @@ temp/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-
-providers/config.js
