@@ -1,0 +1,185 @@
+.row {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.iconfont {
+  font-size: 38px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  padding: 1px 5px;
+  background-color: #ff5400;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.menu-name {
+  padding-top: 6px;
+}
+
+.icon-patrol-task {
+  background-color: #63c6e6;
+}
+
+.icon-repair-task {
+  background-color: #868fe7;
+}
+
+.icon-experiment-task {
+  background-color: #91caf2;
+}
+
+.icon-guard-task {
+  background-color: #b9e369;
+}
+
+.icon-bug-list {
+  background-color: #ee6d76;
+}
+
+.customer-list {
+  background-color: #eec56d;
+}
+
+/*********************************************华丽的分割线**************************************************/
+
+/*start:阿里巴巴矢量图标:*/
+
+@font-face {
+  font-family: 'iconfont'; /* project id 343791 */
+  src: url('//at.alicdn.com/t/font_343791_21qcvh9k0y2mlsor.eot');
+  src: url('//at.alicdn.com/t/font_343791_21qcvh9k0y2mlsor.eot?#iefix') format('embedded-opentype'),
+         url('//at.alicdn.com/t/font_343791_21qcvh9k0y2mlsor.woff') format('woff'),
+         url('//at.alicdn.com/t/font_343791_21qcvh9k0y2mlsor.ttf') format('truetype'),
+         url('//at.alicdn.com/t/font_343791_21qcvh9k0y2mlsor.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gengduo:before {
+  content: "\e62b";
+}
+
+.icon-experiment:before {
+  content: "\e616";
+}
+
+.icon-location:before {
+  content: "\e64d";
+}
+
+.icon-plan-detail:before {
+  content: "\e80f";
+}
+
+.icon-time:before {
+  content: "\e741";
+}
+
+.icon-repair:before {
+  content: "\e679";
+}
+
+.icon-navigation:before {
+  content: "\e640";
+}
+
+.icon-add-bug:before {
+  content: "\e7af";
+}
+
+.icon-hot-line:before {
+  content: "\e607";
+}
+
+.icon-guard-task:before {
+  content: "\e651";
+}
+
+.icon-repair-task:before {
+  content: "\e617";
+}
+
+.icon-customer-info:before {
+  content: "\e625";
+}
+
+.icon-bug-list:before {
+  content: "\e65f";
+}
+
+.icon-fault-device:before {
+  content: "\e6af";
+}
+
+.icon-record:before {
+  content: "\e601";
+}
+
+.icon-sign-info:before {
+  content: "\e664";
+}
+
+.icon-scan:before {
+  content: "\e615";
+}
+
+.icon-guard:before {
+  content: "\e873";
+}
+
+.icon-finished:before {
+  content: "\e608";
+}
+
+.icon-basic-info:before {
+  content: "\e6d5";
+}
+
+.icon-patorl:before {
+  content: "\e63d";
+}
+
+.icon-experiment-task:before {
+  content: "\e600";
+}
+
+.icon-customer:before {
+  content: "\e604";
+}
+
+.icon-patrol-task:before {
+  content: "\e611";
+}
+
+.icon-announcement:before {
+  content: "\e68d";
+}
+
+.icon-device-health:before {
+  content: "\e622";
+}
+
+.icon-plan-task:before {
+  content: "\e643";
+}
+
+.icon-unfinished:before {
+  content: "\e86b";
+}
+
+/*end:阿里巴巴矢量图标:*/

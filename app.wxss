@@ -1,31 +1,29 @@
 page {
-  background-color: #efefef;
   font-size: 15px;
 }
 
-.app-white {
-  background-color: #fff;
-}
 
 /*********************************************华丽的分割线**************************************************/
 
 /*start:自定义栅格系统:*/
 
-.app-grid {
+.grid {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
-.app-row {
+.row {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
-.app-col {
+.col {
   padding: 5px;
   position: relative;
   width: 100%;
@@ -34,6 +32,7 @@ page {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 .col-1 {

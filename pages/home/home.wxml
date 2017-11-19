@@ -1,24 +1,31 @@
- <view>
-  <view class='app-row'>
-    <view class='app-col'>3</view>
-    <view class='app-col'>3</view>
-    <view class='app-col'>3</view>
-    <view class='app-col'>3</view>
+<view>
+  <view class='row'>
+    <view class='col col-3'>
+      <text class="iconfont icon-patrol-task">
+        <text class='badge'>1</text>
+      </text>
+      <view class='menu-name' style="color:#63c6e6">巡检</view>
+    </view>
+    <view class='col col-3'>
+      <text class="iconfont icon-repair-task"></text>
+      <view class='menu-name' style="color:#868fe7">消缺</view>
+    </view>
+    <view class='col col-3'>
+      <text class="iconfont icon-experiment-task"></text>
+      <view class='menu-name' style="color:#91caf2">试验</view>
+    </view>
+    <view class='col col-3'>
+      <text class="iconfont icon-guard-task"></text>
+      <view class='menu-name' style="color:#b9e369">值守</view>
+    </view>
   </view>
 
-  <view class='app-row'>
-    <view class='app-col col-6'>6</view>
-    <view class='app-col col-6'>6</view>
+  <view class='row'>
+    <view class='col col-3'>
+      <text class="iconfont icon-bug-list">
+        <text class='badge'>1</text>
+      </text>
+      <view class='menu-name' style="color:#ee6d76">报障</view>
+    </view>
   </view>
-
-  <view class='app-row'>
-    <view class='app-col col-2'>2</view>
-    <view class='app-col col-10'>10</view>
-  </view>
-
-  <view class='app-row'>
-    <view class='app-col col-8'>8</view>
-    <view class='app-col col-4'>4</view>
-  </view>
-  
- </view>
+</view>

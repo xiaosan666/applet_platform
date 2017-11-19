@@ -20,16 +20,16 @@
   margin-top: 0;
 }
 
-.row {
+.my-row {
   display: flex;
   align-items:center;
 }
 
-.row>.label {
+.my-row>.label {
   width: 250rpx;
   color: #666;
 }
 
-.row>.value {
+.my-row>.value {
   width: 100%;
 }
