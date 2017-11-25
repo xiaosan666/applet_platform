@@ -5,17 +5,17 @@
 <view wx:if="{{taskList.length>0}}">
   <view wx:for-items="{{taskList}}" wx:key="{{item.id}}">
     <view class="item">
-      <view class='my-row'>
-        <text class='label'>报障日期：</text>
-        <text class='value'>{{item.bugTime}}</text>
+      <view class='row'>
+        <text class='col-3'>报障日期</text>
+        <text class='col'>{{item.bugTime}}</text>
       </view>
-      <view class='my-row'>
-        <text class='label'>客户名称：</text>
-        <text class='value'>{{item.enterprise.ename}}</text>
+      <view class='row'>
+        <text class='col-3'>客户名称</text>
+        <text class='col'>{{item.enterprise.ename}}</text>
       </view>
-      <view class='my-row'>
-        <text class='label'>故障描述：</text>
-        <text class='value'>{{item.bugDescribe||'无'}}</text>
+      <view class='row'>
+        <text class='col-3'>故障描述</text>
+        <text class='col'>{{item.bugDescribe||'无'}}</text>
       </view>
     </view>
   </view>

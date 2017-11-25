@@ -1,30 +1,34 @@
 <view>
   <view class='row'>
-    <view class='col col-3'>
+    <view class='col col-3' bindtap='taskPatrol'>
       <text class="iconfont icon-patrol-task">
-        <text class='badge'>1</text>
+         <text class='badge' wx:if="{{planSum.taskPatrol>0}}">{{planSum.taskPatrol}}</text>
       </text>
       <view class='menu-name' style="color:#63c6e6">巡检</view>
     </view>
     <view class='col col-3'>
-      <text class="iconfont icon-repair-task"></text>
+      <text class="iconfont icon-repair-task">
+        <text class='badge' wx:if="{{planSum.taskRepair>0}}">{{planSum.taskRepair}}</text>
+      </text>
       <view class='menu-name' style="color:#868fe7">消缺</view>
     </view>
     <view class='col col-3'>
-      <text class="iconfont icon-experiment-task"></text>
+      <text class="iconfont icon-experiment-task">
+         <text class='badge' wx:if="{{planSum.taskExperiment>0}}">{{planSum.taskExperiment}}</text>
+      </text>
       <view class='menu-name' style="color:#91caf2">试验</view>
     </view>
     <view class='col col-3'>
-      <text class="iconfont icon-guard-task"></text>
+      <text class="iconfont icon-guard-task">
+        <text class='badge' wx:if="{{planSum.taskGuard>0}}">{{planSum.taskGuard}}</text>
+      </text>
       <view class='menu-name' style="color:#b9e369">值守</view>
     </view>
   </view>
 
   <view class='row'>
     <view class='col col-3'>
-      <text class="iconfont icon-bug-list">
-        <text class='badge'>1</text>
-      </text>
+      <text class="iconfont icon-bug-list"></text>
       <view class='menu-name' style="color:#ee6d76">报障</view>
     </view>
   </view>

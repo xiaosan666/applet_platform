@@ -4,7 +4,12 @@ const app = getApp();
 Page({
 
   data: {
- 
+    planSum : {
+      "taskExperiment": 0,
+      "taskGuard": 0,
+      "taskPatrol": 0,
+      "taskRepair": 0
+    }
   },
 
   onLoad: function (options) {
@@ -23,11 +28,20 @@ Page({
           })
         }
       })
+      this.getPlanSum();
     })
   },
 
-  onShow: function () {
+  getPlanSum:function(){
+    app.http.get('/statistics/work/planSum').then(res=>{
+      this.setData({ planSum: res })
+    })
+  },
 
+  taskPatrol: function () {
+    wx.navigateTo({
+      url: '/pages/patrol/task'
+    })
   }
 
 })

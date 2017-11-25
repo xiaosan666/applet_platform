@@ -7,10 +7,10 @@
 .item {
   margin: 20rpx 0;
   padding: 20rpx;
+  padding-right: 44rpx;
   border-top: 1rpx solid #e0dfe4;
   border-bottom: 1rpx solid #e0dfe4;
   background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2012%2020'><path%20d='M2,20l-2-2l8-8L0,2l2-2l10,10L2,20z'%20fill='%23e0dfe4'/></svg>");
-  padding-right: 44rpx;
   background-position: right 14rpx center;
   background-repeat: no-repeat;
   background-size: 14px 14px;
@@ -20,16 +20,6 @@
   margin-top: 0;
 }
 
-.my-row {
-  display: flex;
-  align-items:center;
-}
-
-.my-row>.label {
-  width: 250rpx;
+.row > .col-3:first-child {
   color: #666;
-}
-
-.my-row>.value {
-  width: 100%;
 }
