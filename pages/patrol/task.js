@@ -4,7 +4,7 @@ const app = getApp();
 Page({
 
   data: {
-    taskList: []
+    taskList: null
   },
 
   task: function () {

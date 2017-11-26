@@ -3,6 +3,7 @@ const config = require('./providers/config.js');
 const http = require('./providers/http.js');
 const util = require('./providers/util.js');
 const helper = require('./providers/helper.js');
+const validator = require('./providers/validator.js');
 const globalData = require('./providers/globalData.js');
 
 App({
@@ -22,5 +23,6 @@ App({
   http: http,
   util: util,
   helper: helper,
+  validator: validator,
   globalData: globalData
 });

@@ -9,12 +9,12 @@ Page({
 
   login: function (e) {
     let formData = e.detail.value;
-    if (!formData.username) {
-      app.helper.alert('请输入用户名');
-      return;
-    }
-    if (!formData.password) {
-      app.helper.alert('请输入密码');
+    app.validator.add(formData.username, 'notEmpty', '请输入用户名');
+    app.validator.add(formData.username, 'maxLength:10', '最大长度是10');
+    app.validator.add(formData.password, 'notEmpty', '请输入密码');
+    let errorMsg = app.validator.start();
+    if (errorMsg) {
+      app.helper.alert(errorMsg);
       return;
     }
     this.setData({ loading: true });
